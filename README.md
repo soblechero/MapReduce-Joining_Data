@@ -2,9 +2,9 @@
 
 * Objetivo:
 
-Tenemos dos tipos de ficheros de pruebas con pares clave-valor, un tipo con <TV show, viewer> y otro con <TV show, Channel>
-</br>
-Y queremos hacer un inner join entre ambos tipos:
+Tenemos dos tipos de ficheros de pruebas con pares clave-valor, un tipo con \<TV show, viewer\> y otro con \<TV show, Channel\>
+
+Y queremos hacer un inner join entre ambos tipos de datos:
 
 ```
 select sum( viewer count) from FileA, FileB 
