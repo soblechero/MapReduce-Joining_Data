@@ -1,6 +1,10 @@
 # MapReduce-Joining_Data
 
-* Lo que queremos:
+* Objetivo:
+
+Tenemos dos tipos de ficheros de pruebas con pares clave-valor, un tipo con <TV show, viewer> y otro con <TV show, Channel>
+</br>
+Y queremos hacer un inner join entre ambos tipos:
 
 ```
 select sum( viewer count) from FileA, FileB 
