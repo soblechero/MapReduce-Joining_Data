@@ -20,5 +20,5 @@ $ cat test_files/join2_gen*.txt | ./join2_mapper.py | sort | ./join2_reducer.py
 * Y en windows así:
 
 ```
-> type test_files/join2_gen*.txt | python join2_mapper.py | sort | python join2_reducer.py
+> type test_files\join2_gen*.txt | python join2_mapper.py | sort | python join2_reducer.py
 ```
